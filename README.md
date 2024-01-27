@@ -2,6 +2,8 @@
 
 ImagifyApp is a React application that allows users to search for images using a Search Bar and display the results.
 
+![imagify](image-1.png)
+
 ## Features
 
 - Search for images by entering keywords
@@ -13,13 +15,13 @@ ImagifyApp is a React application that allows users to search for images using a
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/imagify-app.git
+   git clone https://github.com/Parrurox/imagify.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd imagify-app
+   cd imagify
    ```
 
 3. Install the dependencies:
@@ -31,10 +33,10 @@ ImagifyApp is a React application that allows users to search for images using a
 4. Start the development server:
 
    ```bash
-   npm start
+   npm run dev
    ```
 
-5. Open your browser and visit `http://localhost:3000` to view the app.
+5. Open your browser and visit `localhost` to view the app.
 
 ## Usage
 
@@ -47,7 +49,7 @@ ImagifyApp is a React application that allows users to search for images using a
 
 ## API
 
-The ImagifyApp uses the [API_NAME] API to fetch images. You will need to obtain an API key from [API_PROVIDER] and replace it in the code.
+The ImagifyApp uses the [Unsplash] API to fetch images. You will need to obtain an API key from `https://unsplash.com/developers` and replace it in the code.
 
 ## Contributing
 
